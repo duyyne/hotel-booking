@@ -25,11 +25,6 @@ body {
     min-height: 100vh;
 }
 
-h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
-}
-
 button {
     border-radius: 8px;
     border: 1px solid transparent;
@@ -61,6 +56,9 @@ button:focus-visible {
 
 .text-primary {
     color: var(--color-primary);
+}
+.bg-primary {
+    background-color: var(--color-primary);
 }
 
 .price-sale {

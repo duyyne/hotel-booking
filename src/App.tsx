@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from 'react-router';
 import Layout from './components/Layouts/Layout';
 import Home from './components/pages/Home';
-import Rooms from './components/pages/Rooms';
-import Contact from './components/pages/Contact';
+import NotFound from './components/pages/NotFound';
+import Booking from './components/pages/Booking';
 
 function App() {
     const router = createBrowserRouter([
@@ -11,8 +11,8 @@ function App() {
             Component: Layout,
             children: [
                 { index: true, Component: Home },
-                { path: 'rooms', Component: Rooms },
-                { path: 'contact', Component: Contact },
+                { path: 'booking/:id', Component: Booking },
+                { path: '*', Component: NotFound },
             ],
         },
     ]);

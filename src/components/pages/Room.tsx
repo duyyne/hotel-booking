@@ -37,7 +37,7 @@ const Room = () => {
                 </div>
                 <Link
                     className="text-center w-full block py-2.5 bg-blue-600 hover:bg-blue-900 text-white rounded-md font-bold text-lg transition"
-                    to={'/booking'}
+                    to={'/booking/1'}
                 >
                     Đặt ngay
                 </Link>
